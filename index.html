@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Reminder - Never Forget a Birthday</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            margin: 30px 0;
+        }
+
+        .feature {
+            margin: 20px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .feature:before {
+            content: "🎂";
+            position: absolute;
+            left: 0;
+            font-size: 1.5em;
+        }
+
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .download-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #764ba2;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎉 Birthday Reminder</h1>
+            <p class="tagline">Never forget a birthday again!</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Smart Reminders</h3>
+                <p>Get notified on birthdays so you never miss celebrating with your loved ones.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Easy Management</h3>
+                <p>Add, edit, and organize birthday reminders with a simple and intuitive interface.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Google Drive Backup</h3>
+                <p>Automatically back up your birthday data to Google Drive and sync across devices.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Quick Sharing</h3>
+                <p>Send birthday wishes directly from the app to your contacts.</p>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2>Download Now</h2>
+            <p style="margin: 20px 0;">Available on Google Play Store</p>
+            <a href="https://play.google.com/store/apps/details?id=com.buddhatech.birthday.reminder" class="download-btn">
+                Get it on Google Play
+            </a>
+        </div>
+
+        <div class="footer">
+            <p><strong>Birthday Reminder</strong> by Buddha Technologies</p>
+            <p style="margin-top: 15px;">
+                <a href="index.html">Home</a> |
+                <a href="privacy-policy.html">Privacy Policy</a> |
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+            <p style="margin-top: 10px;">Contact: buddha.smart.tech@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
